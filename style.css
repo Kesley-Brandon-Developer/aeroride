@@ -1,1 +1,13 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
+
+
+
+.cabecalho {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 16px;
+  }
