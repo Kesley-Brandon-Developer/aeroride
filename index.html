@@ -8,24 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="container">
-            <ul>
-                <li class="lista-menu-item"><a href="#">Empresa</a></li>
-                <li class="lista-menu-item"><a href="#">Aviões</a></li>
-                <li class="lista-menu-item"><a href="#">Contato</a></li>
-                
-                <div class="container-titulo">
-                    <h1 class="titulo">Aeroride</h1>
-                </div>
-            </ul>
+    <header>
+        <!-- menu retrátil lateral esquerda -->
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"></label>
+        <div class="barra">
+            <nav>
+                <a href="#">
+                    <div class="Link">Home</div>
+                </a>
+                <a href="#">
+                    <div class="Link">Notícias</div>
+                </a>
+                <a href="#">
+                    <div class="Link">Informativos</div>
+                </a>
+                <a href="#">
+                    <div class="Link">Curiosidades</div>
+                </a>
+                <a href="#">
+                    <div class="Link">Sobre</div>
+                </a>
+            </nav>
         </div>
+        <!-- barra fixa azul horizontal -->
+
+        <nav class="menu">
+            <a href="index.html">
+                <img src="logo.png" id="logo">
+            </a>
+        </nav>
+
+        <label for="menu-hamburguer">
+            <div class="mburg">
+                <span class="hamburguer"></span>
+            </div>
+        </label>
 
     </header>
         
     <main>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid explicabo temporibus molestiae corporis in, ab asperiores ad eveniet facere qui laborum dolores ipsum laudantium iusto tenetur alias possimus magni beatae?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quibusdam tenetur numquam nulla. Aperiam placeat ullam ducimus temporibus minima sapiente, doloribus quam nihil nisi doloremque dolores delectus qui est quos?</p>
+        <div class="paragrafo">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid explicabo temporibus molestiae corporis in, ab asperiores ad eveniet facere qui laborum dolores ipsum laudantium iusto tenetur alias possimus magni beatae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quibusdam tenetur numquam nulla. Aperiam placeat ullam ducimus temporibus minima sapiente, doloribus quam nihil nisi doloremque dolores delectus qui est quos?</p>
+        </div>
     </main>
 
     <footer>
