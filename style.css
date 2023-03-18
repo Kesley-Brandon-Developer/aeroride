@@ -1,7 +1,7 @@
 @charset "UTF-8"; 
 
 
-html,
+
 body {
   width: 100%;
   height: 100%;
@@ -57,7 +57,7 @@ body {
 
 .barra {
   background-color: #0998d3;
-  height: 100%;
+  height: 0%;
   width: 250px;
   position: fixed;
   transition: all .2s linear;
@@ -66,7 +66,7 @@ body {
 }
 
 nav {
-  width: 100%;
+  width: 70%;
   position: absolute;
   top: 80px;
 }
@@ -84,7 +84,7 @@ nav a {
   font-size: 12pt;
   transition: all .3s linear;
   color: #ffffff;
-  border-bottom: 1px solid #0998d3;
+  border-bottom: 1px solid white;
   opacity: 0;
 
 
@@ -176,6 +176,9 @@ input:checked~label .hamburguer:after {
 
 .paragrafo {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  height: 500px;
+
 }
 
